@@ -1,2 +1,3 @@
 # base16-scintillua
-base16 scintillua (SciTE) template / theme(s)
+
+[Base16](https://github.com/tinted-theming/home/blob/main/styling.md) [scintillua](https://github.com/orbitalquark/scintillua) ([SciTE](https://scintilla.org/SciTE.html)) template / theme(s).
