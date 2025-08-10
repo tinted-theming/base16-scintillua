@@ -2,6 +2,10 @@
 
 [Base16] [scintillua] ([SciTE]) template / theme(s) (automatically) built using [Tinted Theming color schemes].
 
+## Previews
+
+See https://tinted-theming.github.io/tinted-gallery/ for gallery of color schemes.
+
 ## Installation
 
  1. Copy the theme(s) you are interested in from `themes/base16` into the scintillua `themes` directory.
