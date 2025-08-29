@@ -1,4 +1,4 @@
-# base16-scintillua
+# base16-scintillua <img alt="Color wheel" src="https://raw.githubusercontent.com/tinted-theming/home/refs/heads/main/color_wheel.png" width="100" align="right" style="padding-top:0.6rem;">
 
 [Base16] [scintillua] ([SciTE]) template / theme(s) (automatically) built using [Tinted Theming color schemes].
 
@@ -18,6 +18,25 @@ See https://tinted-theming.github.io/tinted-gallery/ for gallery of color scheme
 
 For more information about scintillua config, see scintillua documentation at https://github.com/orbitalquark/scintillua
 For information about SciTE config see https://www.scintilla.org/SciTEDoc.html
+
+## Team
+
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/tinted-theming/base16-scintillua/graphs/contributors).
+
+| [![Jamy](https://github.com/jamygolden.png?size=100)](https://github.com/JamyGolden) | [![clach04](https://github.com/clach04.png?size=100)](https://github.com/clach04) |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
+| [Jamy](https://github.com/JamyGolden)                                                | [clach04](https://github.com/clach04)                                             |
+
+## Community
+
+  * [Tinted Theming Home](https://github.com/tinted-theming/home)
+  * Have something you want to discuss, but you're not sure it warrants an issue? Feel free to stop by
+    [#tinted-theming:matrix.org](https://matrix.to/#/#tinted-theming:matrix.org) on [Matrix](https://matrix.org/).
+
+## License
+
+[MIT License](./LICENSE)
+
 
 [Base16]: https://github.com/tinted-theming/home/blob/main/styling.md
 [scintillua]: https://github.com/orbitalquark/scintillua
