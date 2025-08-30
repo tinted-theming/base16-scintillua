@@ -7,6 +7,9 @@
 See https://github.com/tinted-theming/base16-scintillua/tree/main/docs/images for some sample SciTE + scintillua screen shots.
 
 See https://tinted-theming.github.io/tinted-gallery/ for gallery of all color schemes.
+This page shows all supported color themes, using a bash script
+https://github.com/tinted-theming/tinted-gallery/blob/main/build.sh
+as the demo syntax highlighted file (as seen in vim).
 
 ## Installation
 
