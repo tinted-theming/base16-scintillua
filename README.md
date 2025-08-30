@@ -4,7 +4,9 @@
 
 ## Previews
 
-See https://tinted-theming.github.io/tinted-gallery/ for gallery of color schemes.
+See https://github.com/tinted-theming/base16-scintillua/tree/main/docs/images for some sample SciTE + scintillua screen shots.
+
+See https://tinted-theming.github.io/tinted-gallery/ for gallery of all color schemes.
 
 ## Installation
 
