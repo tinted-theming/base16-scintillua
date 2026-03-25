@@ -296,7 +296,10 @@ style.*.32=$(scintillua.styles.default)
 # Line number
 style.*.33=$(scintillua.styles.line.number)
 # Brace highlight
-#style.*.34=fore:#0000FF,bold
+style.*.34=fore:$(scintillua.colors.base0B),bold  # uses colors used by (official) Draula (vim) theme
+#style.*.34=back:$(scintillua.colors.base0D),fore:$(scintillua.colors.base00),bold  # reverse/inverse - colors used by MatchingChar https://github.com/tinted-theming/base16-kakoune
+#style.*.34=back:$(scintillua.colors.base06),fore:$(scintillua.colors.base00),bold  # reverse/inverse - colors used by MatchParen https://github.com/tinted-theming/tinted-vim/
+#style.*.34=back:$(scintillua.colors.base0B),fore:$(scintillua.colors.base00),bold  # reverse/inverse - uses inverted colors used by Draula theme
 # FIXME TODO
 # Brace incomplete highlight
 #style.*.35=fore:#FF0000,bold
