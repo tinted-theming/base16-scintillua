@@ -24,6 +24,24 @@ as the demo syntax highlighted file (as seen in vim).
 For more information about scintillua config, see scintillua documentation at https://github.com/orbitalquark/scintillua
 For information about SciTE config see https://www.scintilla.org/SciTEDoc.html
 
+## Building
+
+This repo auto builds with new color schemes as they are added to
+https://github.com/tinted-theming/schemes or when this repo is updated.
+
+You can also build locally using **any** (base16) builder you like.
+https://github.com/tinted-theming/tinted-builder-rust/releases provides
+pre-built binaries for most platforms and can build both base16 and base24
+some notes and tips are below.
+
+    # checkout colors and this theme template
+    git clone https://github.com/tinted-theming/schemes.git
+    git clone https://github.com/tinted-theming/base16-scintillua.git
+
+    # build (assuming tinted-builder-rust is in path)
+    tinted-builder-rust build --schemes-dir schemes\base16 base16-scintillua
+
+
 ## Team
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/tinted-theming/base16-scintillua/graphs/contributors).
