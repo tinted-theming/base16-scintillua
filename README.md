@@ -20,6 +20,8 @@ as the demo syntax highlighted file (as seen in vim).
 
         #import scintillua/themes/scite
         import scintillua/themes/base16-tokyo-night-moon
+ 5. review `caret.line.back.alpha=63` for the theme choosen. If there are no color collisions (i.e. duplicates baseXX hex values), caret.line.back.alpha can and should be commented out (to disable alpha blending) which will use the EXACT color.
+
 
 For more information about scintillua config, see scintillua documentation at https://github.com/orbitalquark/scintillua
 For information about SciTE config see https://www.scintilla.org/SciTEDoc.html
