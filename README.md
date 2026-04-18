@@ -13,6 +13,8 @@ as the demo syntax highlighted file (as seen in vim).
 
 ## Installation
 
+Assuming an already configured and working scite + scintillua setup:
+
  1. Copy the theme(s) you are interested in from `themes/base16` into the scintillua `themes` directory.
  2. Edit `scintillua.properties` (in the parent directory of the `themes` directory)
  3. Locate the themes section, search for `import scintillua/themes`
@@ -20,7 +22,7 @@ as the demo syntax highlighted file (as seen in vim).
 
         #import scintillua/themes/scite
         import scintillua/themes/base16-tokyo-night-moon
- 5. review `caret.line.back.alpha=63` for the theme choosen. If there are no color collisions (i.e. duplicates baseXX hex values), caret.line.back.alpha can and should be commented out (to disable alpha blending) which will use the EXACT color.
+ 5. Review `caret.line.back.alpha=63` for the theme chosen. If there are no color collisions (i.e. duplicates baseXX hex values), caret.line.back.alpha can and should be commented out or set to `ff` (to disable alpha blending), which will use the EXACT color. See https://github.com/dracula/draculatheme.com/issues/303 for an example conflict where duplicated colors are unusable. This can be set in scintillua properties or user properties.
 
 
 For more information about scintillua config, see scintillua documentation at https://github.com/orbitalquark/scintillua
