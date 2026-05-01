@@ -22,8 +22,11 @@ Assuming an already configured and working scite + scintillua setup:
 
         #import scintillua/themes/scite
         import scintillua/themes/base16-tokyo-night-moon
- 5. Review `caret.line.back.alpha=63` for the theme chosen. If there are no color collisions (i.e. duplicates baseXX hex values), caret.line.back.alpha can and should be commented out or set to `ff` (to disable alpha blending), which will use the EXACT color. See https://github.com/dracula/draculatheme.com/issues/303 for an example conflict where duplicated colors are unusable. This can be set in scintillua properties or user properties.
 
+### Installation Optional Steps
+
+ 1. Review `caret.line.back.alpha=63` for the theme chosen. If there are no color collisions (i.e. duplicates baseXX hex values), caret.line.back.alpha can and should be commented out or set to `ff` (to disable alpha blending), which will use the EXACT color. See https://github.com/dracula/draculatheme.com/issues/303 for an example conflict where duplicated colors are unusable. This can be set in scintillua properties or user properties.
+ 2. Review `style.*.34`, Brace highlight color for the theme chosen for personal preferences.
 
 For more information about scintillua config, see scintillua documentation at https://github.com/orbitalquark/scintillua
 For information about SciTE config see https://www.scintilla.org/SciTEDoc.html
